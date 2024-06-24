@@ -8,7 +8,7 @@ Composants utilisés
 Installation
 Utilisation
 
-Aperçu
+# Aperçu
 Humi'Varium est conçu pour surveiller et afficher les niveaux de température et d'humidité en temps réel. Le système utilise des capteurs connectés à une carte Nucleo L152, et les données sont affichées via le logiciel Tera Term.
 
 # Architecture technique
@@ -30,12 +30,13 @@ Utilisation: Communication entre le shield IKS01A3 et la carte Nucleo L152.
 
 IKS01A3
 
-Utilisation: Deux capteurs pour mesurer :
+# Utilisation
 
+Deux capteurs pour mesurer :
 Température
 Humidité
 
-#Composants utilisés
+# Composants utilisés
 Carte Nucleo L152
 Shield IKS01A3
 Capteurs de température et d'humidité
@@ -52,6 +53,7 @@ STM32CubeIDE
 Câbles de connexion
 
 # Étapes d'installation
+
 Clonez le repository GitHub sur votre machine locale
 Copier le code
 git clone https://github.com/votre-utilisateur/HumiVarium.git
@@ -61,6 +63,7 @@ Configurez les paramètres du microcontrôleur en utilisant STM32CubeMX.
 Compilez et téléversez le code sur la carte Nucleo L152.
 
 # Utilisation
+
 Connectez les capteurs et le potentiomètre à la carte Nucleo L152 selon le schéma de câblage fourni.
 Ouvrez Tera Term et connectez-vous à la carte Nucleo via UART.
 Utilisez les boutons pour changer les données affichées.
