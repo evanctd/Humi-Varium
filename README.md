@@ -12,6 +12,7 @@ Aperçu
 Humi'Varium est conçu pour surveiller et afficher les niveaux de température et d'humidité en temps réel. Le système utilise des capteurs connectés à une carte Nucleo L152, et les données sont affichées via le logiciel Tera Term.
 
 # Architecture technique
+
 GPIO
 Utilisation: Boutons en interruption pour changer les données affichées.
 
@@ -28,7 +29,9 @@ I2C / SPI
 Utilisation: Communication entre le shield IKS01A3 et la carte Nucleo L152.
 
 IKS01A3
+
 Utilisation: Deux capteurs pour mesurer :
+
 Température
 Humidité
 
@@ -41,6 +44,7 @@ Boutons pour interruptions
 Logiciel Tera Term
 
 # Installation
+
 Prérequis
 Tera Term
 STM32CubeMX
